@@ -40,9 +40,10 @@
             // 
             // buttLoginTB
             // 
-            this.buttLoginTB.Location = new System.Drawing.Point(360, 180);
+            this.buttLoginTB.Location = new System.Drawing.Point(240, 117);
+            this.buttLoginTB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttLoginTB.Name = "buttLoginTB";
-            this.buttLoginTB.Size = new System.Drawing.Size(117, 45);
+            this.buttLoginTB.Size = new System.Drawing.Size(78, 29);
             this.buttLoginTB.TabIndex = 0;
             this.buttLoginTB.Text = "Login";
             this.buttLoginTB.UseVisualStyleBackColor = true;
@@ -50,33 +51,37 @@
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(188, 91);
+            this.txtUsername.Location = new System.Drawing.Point(125, 59);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(289, 26);
+            this.txtUsername.Size = new System.Drawing.Size(194, 20);
             this.txtUsername.TabIndex = 1;
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(188, 136);
+            this.txtPassword.Location = new System.Drawing.Point(125, 88);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(289, 26);
+            this.txtPassword.Size = new System.Drawing.Size(194, 20);
             this.txtPassword.TabIndex = 2;
             // 
             // labelUsername
             // 
             this.labelUsername.AutoSize = true;
-            this.labelUsername.Location = new System.Drawing.Point(69, 91);
+            this.labelUsername.Location = new System.Drawing.Point(46, 59);
+            this.labelUsername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelUsername.Name = "labelUsername";
-            this.labelUsername.Size = new System.Drawing.Size(83, 20);
+            this.labelUsername.Size = new System.Drawing.Size(55, 13);
             this.labelUsername.TabIndex = 3;
             this.labelUsername.Text = "Username";
             // 
             // labelPassword
             // 
             this.labelPassword.AutoSize = true;
-            this.labelPassword.Location = new System.Drawing.Point(69, 136);
+            this.labelPassword.Location = new System.Drawing.Point(46, 88);
+            this.labelPassword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(78, 20);
+            this.labelPassword.Size = new System.Drawing.Size(53, 13);
             this.labelPassword.TabIndex = 4;
             this.labelPassword.Text = "Password";
             // 
@@ -84,28 +89,30 @@
             // 
             this.labelJudulApp.AutoSize = true;
             this.labelJudulApp.Font = new System.Drawing.Font("Harlow Solid Italic", 14F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelJudulApp.Location = new System.Drawing.Point(64, 30);
+            this.labelJudulApp.Location = new System.Drawing.Point(43, 20);
+            this.labelJudulApp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelJudulApp.Name = "labelJudulApp";
-            this.labelJudulApp.Size = new System.Drawing.Size(265, 35);
+            this.labelJudulApp.Size = new System.Drawing.Size(181, 24);
             this.labelJudulApp.TabIndex = 5;
             this.labelJudulApp.Text = "Aplikasi Tambal Ban";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::TubesAppTB1._1.Properties.Resources.tire_5666200_960_720;
-            this.pictureBox1.Location = new System.Drawing.Point(204, 6);
+            this.pictureBox1.Location = new System.Drawing.Point(136, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(382, 298);
+            this.pictureBox1.Size = new System.Drawing.Size(255, 194);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
             // FormLoginTB
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(552, 253);
+            this.ClientSize = new System.Drawing.Size(368, 164);
             this.Controls.Add(this.labelJudulApp);
             this.Controls.Add(this.labelPassword);
             this.Controls.Add(this.labelUsername);
@@ -113,7 +120,9 @@
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.buttLoginTB);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormLoginTB";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Aplikasi Tambal Ban";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
