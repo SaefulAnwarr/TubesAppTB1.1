@@ -84,6 +84,7 @@
     <Compile Include="FormLoginTB.Designer.cs">
       <DependentUpon>FormLoginTB.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="FormPenilaian.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,13 +92,65 @@
       <DependentUpon>FormPenilaian.cs</DependentUpon>
     </Compile>
     <Compile Include="hitungPenilaian.cs" />
+=======
+<<<<<<< HEAD
+    <Compile Include="FormPembayaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPembayaran.Designer.cs">
+      <DependentUpon>FormPembayaran.cs</DependentUpon>
+=======
+<<<<<<< HEAD
+    <Compile Include="FormPemesananLayanan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPemesananLayanan.Designer.cs">
+      <DependentUpon>FormPemesananLayanan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPesananAnda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPesananAnda.Designer.cs">
+      <DependentUpon>FormPesananAnda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPilihGerai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPilihGerai.Designer.cs">
+      <DependentUpon>FormPilihGerai.cs</DependentUpon>
+=======
+    <Compile Include="FormRegistrasiTB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistrasiTB.Designer.cs">
+      <DependentUpon>FormRegistrasiTB.cs</DependentUpon>
+>>>>>>> 54932cfb197fe1cc6e6776447c4806d5f1622fe8
+>>>>>>> 5cc96e3f8ddb11158792ea0f66b1c700bbe1826f
+    </Compile>
+>>>>>>> e8a827329acbe1b003a10194fafd236c745dc13d
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs" />
     <EmbeddedResource Include="FormLoginTB.resx">
       <DependentUpon>FormLoginTB.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="FormPenilaian.resx">
       <DependentUpon>FormPenilaian.cs</DependentUpon>
+=======
+<<<<<<< HEAD
+    <EmbeddedResource Include="FormPembayaran.resx">
+      <DependentUpon>FormPembayaran.cs</DependentUpon>
+=======
+<<<<<<< HEAD
+    <EmbeddedResource Include="FormPemesananLayanan.resx">
+      <DependentUpon>FormPemesananLayanan.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="FormRegistrasiTB.resx">
+      <DependentUpon>FormRegistrasiTB.cs</DependentUpon>
+>>>>>>> 54932cfb197fe1cc6e6776447c4806d5f1622fe8
+>>>>>>> 5cc96e3f8ddb11158792ea0f66b1c700bbe1826f
+>>>>>>> e8a827329acbe1b003a10194fafd236c745dc13d
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
