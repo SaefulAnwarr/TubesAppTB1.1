@@ -19,7 +19,11 @@ namespace TubesAppTB1._1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new FormPemesananLayanan());
+=======
+            Application.Run(new FormRegistrasiTB());
+>>>>>>> 54932cfb197fe1cc6e6776447c4806d5f1622fe8
         }
     }
 }
