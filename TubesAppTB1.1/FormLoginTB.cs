@@ -26,7 +26,9 @@ namespace TubesAppTB1._1
             if (usernameData.Contains(txtUsername.Text) && passwordData.Contains(txtPassword.Text) && Array.IndexOf(usernameData, txtUsername.Text) ==
                 Array.IndexOf(passwordData, txtPassword.Text))
             {
+                FormPemesananLayanan formPemesananLayanan = new FormPemesananLayanan();
                 this.Hide();
+                formPemesananLayanan.Show();
                 MessageBox.Show("Login berhasil! Selamat datang di Aplikasi Tambal Ban");
             }
             else

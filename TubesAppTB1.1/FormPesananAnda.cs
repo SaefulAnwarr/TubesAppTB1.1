@@ -15,6 +15,9 @@ namespace TubesAppTB1._1
         public FormPesananAnda()
         {
             InitializeComponent();
+            infoJenis.Text = Program.jnsken;
+            infoJumlah.Text = Program.jmlhban.ToString();
+            infoGerai.Text = Program.gerai;
         }
 
         private void FormPesananAnda_Load(object sender, EventArgs e)
