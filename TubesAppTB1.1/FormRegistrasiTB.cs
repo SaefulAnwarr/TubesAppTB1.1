@@ -47,7 +47,6 @@ namespace TubesAppTB1._1
                 String jsonString = File.ReadAllText(Directory.GetParent(Directory.GetCurrentDirectory()) + ".json");
                 //Deserialize file json menjadi object
                 User user = JsonSerializer.Deserialize<User>(jsonString);
-                textBox4.Text = user.Email + " " + user.Username + " " + user.Password;
 
             }
             FormLoginTB formLoginTB = new FormLoginTB();
