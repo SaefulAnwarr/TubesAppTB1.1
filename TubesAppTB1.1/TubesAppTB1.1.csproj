@@ -58,10 +58,19 @@
     <Compile Include="FormLoginTB.Designer.cs">
       <DependentUpon>FormLoginTB.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPembayaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPembayaran.Designer.cs">
+      <DependentUpon>FormPembayaran.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormLoginTB.resx">
       <DependentUpon>FormLoginTB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPembayaran.resx">
+      <DependentUpon>FormPembayaran.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
