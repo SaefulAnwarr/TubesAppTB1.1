@@ -32,16 +32,16 @@ namespace TubesAppTB1._1
             List<string> listNamaGerai = nilaiConf.conf.namaGerai;
             if (listNamaGerai.Contains(inputNamaGerai))
             {
-                gerai = "gerai ada";
+                gerai = "Gerai ada";
             }
             else
             {
-                gerai = "gerai tidak ada";
+                gerai = "Gerai tidak ada";
             }
 
             //Console.WriteLine("Rating layanan Gerai : ");
             //String inputBintang = Console.ReadLine();
-            if (radioButton1.Checked)
+            if (radioButton1.Checked || radioButton2.Checked)
             {
                 rate = nilaiConf.conf.beriRating.satu;
             }
@@ -49,7 +49,8 @@ namespace TubesAppTB1._1
             {
                 rate = nilaiConf.conf.beriRating.dua;
             }
-            textBox2.Text = gerai.ToString() + " " + rate.ToString();
+            MessageBox.Show(gerai.ToString() + "\n" + rate.ToString());
+            //textBox2.Text = gerai.ToString() + " " + rate.ToString();
         }
     }
 }

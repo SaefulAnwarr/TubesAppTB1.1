@@ -50,6 +50,9 @@ namespace TubesAppTB1._1
                 textBox4.Text = user.Email + " " + user.Username + " " + user.Password;
 
             }
+            FormLoginTB formLoginTB = new FormLoginTB();
+            this.Hide();
+            formLoginTB.Show();
         }
     }
 }

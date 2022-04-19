@@ -41,7 +41,7 @@
             // buttLoginTB
             // 
             this.buttLoginTB.Location = new System.Drawing.Point(240, 117);
-            this.buttLoginTB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttLoginTB.Margin = new System.Windows.Forms.Padding(2);
             this.buttLoginTB.Name = "buttLoginTB";
             this.buttLoginTB.Size = new System.Drawing.Size(78, 29);
             this.buttLoginTB.TabIndex = 0;
@@ -52,7 +52,7 @@
             // txtUsername
             // 
             this.txtUsername.Location = new System.Drawing.Point(125, 59);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(194, 20);
             this.txtUsername.TabIndex = 1;
@@ -60,8 +60,9 @@
             // txtPassword
             // 
             this.txtPassword.Location = new System.Drawing.Point(125, 88);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(194, 20);
             this.txtPassword.TabIndex = 2;
             // 
@@ -100,7 +101,7 @@
             // 
             this.pictureBox1.Image = global::TubesAppTB1._1.Properties.Resources.tire_5666200_960_720;
             this.pictureBox1.Location = new System.Drawing.Point(136, 4);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(255, 194);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -120,7 +121,7 @@
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.buttLoginTB);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormLoginTB";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Aplikasi Tambal Ban";

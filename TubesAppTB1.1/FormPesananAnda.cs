@@ -24,5 +24,12 @@ namespace TubesAppTB1._1
         {
 
         }
+
+        private void butLakukanPembayaran_Click(object sender, EventArgs e)
+        {
+            FormPembayaran formPembayaran = new FormPembayaran();
+            this.Hide();
+            formPembayaran.Show();
+        }
     }
 }

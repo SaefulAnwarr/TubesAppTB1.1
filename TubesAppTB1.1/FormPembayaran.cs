@@ -15,6 +15,8 @@ namespace TubesAppTB1._1
         public FormPembayaran()
         {
             InitializeComponent();
+            comboBox1.Text = Program.jnsken;
+            textBox1.Text = Program.jmlhban.ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -25,13 +27,17 @@ namespace TubesAppTB1._1
                 int harga = 0;
                 //adouble hrga;
                 //string value = comboBox1.SelectedItem.ToString();
-                if (jenis == "Mobil")
+                if (jenis == comboBox1.Items[0].ToString())
                 {
-                    harga = 15000;
+                    harga = 3000;
                 }
-                else if (jenis == "Motor")
+                else if (jenis == comboBox1.Items[1].ToString())
                 {
                     harga = 10000;
+                }
+                else if (jenis == comboBox1.Items[2].ToString())
+                {
+                    harga = 15000;
                 }
 
 
@@ -40,6 +46,13 @@ namespace TubesAppTB1._1
                 int total = harga * ban;
                 textBox2.Text = total.ToString();
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormPenilaian formPenilaian = new FormPenilaian();
+            this.Hide();
+            formPenilaian.Show();
         }
     }
 }
