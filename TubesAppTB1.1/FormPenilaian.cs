@@ -25,31 +25,50 @@ namespace TubesAppTB1._1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            hitungPenilaianConfig nilaiConf = new hitungPenilaianConfig();
-            string gerai, rate;
-            //Console.WriteLine("Beri Penilaian");
-            string inputNamaGerai = textBox1.Text;
-            List<string> listNamaGerai = nilaiConf.conf.namaGerai;
-            if (listNamaGerai.Contains(inputNamaGerai))
-            {
-                gerai = "gerai ada";
-            }
-            else
-            {
-                gerai = "gerai tidak ada";
-            }
-
-            //Console.WriteLine("Rating layanan Gerai : ");
-            //String inputBintang = Console.ReadLine();
             if (radioButton1.Checked)
             {
-                rate = nilaiConf.conf.beriRating.satu;
+                FormPenilaianTB.Bintang inputBintang = FormPenilaianTB.Bintang.satu;
+                MessageBox.Show(FormPenilaianTB.BeriRating(inputBintang));
             }
-            else
+            else if (radioButton2.Checked)
             {
-                rate = nilaiConf.conf.beriRating.dua;
+                FormPenilaianTB.Bintang inputBintang = FormPenilaianTB.Bintang.dua;
+                MessageBox.Show(FormPenilaianTB.BeriRating(inputBintang));
             }
-            textBox2.Text = gerai.ToString() + " " + rate.ToString();
+            else if (radioButton3.Checked)
+            {
+                FormPenilaianTB.Bintang inputBintang = FormPenilaianTB.Bintang.tiga;
+                MessageBox.Show(FormPenilaianTB.BeriRating(inputBintang));
+            }
+            else if (radioButton4.Checked)
+            {
+                FormPenilaianTB.Bintang inputBintang = FormPenilaianTB.Bintang.empat;
+                MessageBox.Show(FormPenilaianTB.BeriRating(inputBintang));
+            }
+            else if (radioButton5.Checked)
+            {
+                FormPenilaianTB.Bintang inputBintang = FormPenilaianTB.Bintang.lima;
+                MessageBox.Show(FormPenilaianTB.BeriRating(inputBintang));
+            }
+        }
+
+        private void FormPenilaian_Load(object sender, EventArgs e)
+        {
+            listGerai.Items.Clear();
+            FormPenilaianTB.Gerai inputGerai1 = FormPenilaianTB.Gerai.gerai1;
+            listGerai.Items.Add(FormPenilaianTB.GetNamaGerai(inputGerai1));
+
+            FormPenilaianTB.Gerai inputGerai2 = FormPenilaianTB.Gerai.gerai2;
+            listGerai.Items.Add(FormPenilaianTB.GetNamaGerai(inputGerai2));
+
+            FormPenilaianTB.Gerai inputGerai3 = FormPenilaianTB.Gerai.gerai3;
+            listGerai.Items.Add(FormPenilaianTB.GetNamaGerai(inputGerai3));
+
+            FormPenilaianTB.Gerai inputGerai4 = FormPenilaianTB.Gerai.gerai4;
+            listGerai.Items.Add(FormPenilaianTB.GetNamaGerai(inputGerai4));
+
+            FormPenilaianTB.Gerai inputGerai5 = FormPenilaianTB.Gerai.gerai5;
+            listGerai.Items.Add(FormPenilaianTB.GetNamaGerai(inputGerai5));
         }
     }
 }

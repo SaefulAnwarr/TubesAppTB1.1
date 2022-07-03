@@ -76,8 +76,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="beriRatingcs.cs" />
-    <Compile Include="bintangConfig.cs" />
     <Compile Include="FormLoginTB.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,7 +88,7 @@
     <Compile Include="FormPenilaian.Designer.cs">
       <DependentUpon>FormPenilaian.cs</DependentUpon>
     </Compile>
-    <Compile Include="hitungPenilaian.cs" />
+    <Compile Include="FormPenilaianTB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormLoginTB.resx">
