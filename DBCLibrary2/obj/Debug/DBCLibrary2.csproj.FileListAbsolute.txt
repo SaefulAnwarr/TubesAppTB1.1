@@ -1,0 +1,6 @@
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\DBCLibrary2\bin\Debug\DBCLibrary2.dll
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\DBCLibrary2\bin\Debug\DBCLibrary2.pdb
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\DBCLibrary2\obj\Debug\DBCLibrary2.csproj.AssemblyReference.cache
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\DBCLibrary2\obj\Debug\DBCLibrary2.csproj.CoreCompileInputs.cache
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\DBCLibrary2\obj\Debug\DBCLibrary2.dll
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\DBCLibrary2\obj\Debug\DBCLibrary2.pdb

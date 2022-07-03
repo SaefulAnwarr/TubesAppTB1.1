@@ -1,0 +1,17 @@
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\TestPemesanan2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\TestPemesanan2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\TestPemesanan2\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\TestPemesanan2\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\TestPemesanan2\bin\Debug\TestPemesanan2.dll
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\TestPemesanan2\bin\Debug\TestPemesanan2.pdb
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\TestPemesanan2\bin\Debug\DBCLibrary2.dll
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\TestPemesanan2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\TestPemesanan2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\TestPemesanan2\bin\Debug\DBCLibrary2.pdb
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\TestPemesanan2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\TestPemesanan2\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\TestPemesanan2\obj\Debug\TestPemesanan2.csproj.AssemblyReference.cache
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\TestPemesanan2\obj\Debug\TestPemesanan2.csproj.CoreCompileInputs.cache
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\TestPemesanan2\obj\Debug\TestPemesanan2.csproj.CopyComplete
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\TestPemesanan2\obj\Debug\TestPemesanan2.dll
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\TestPemesanan2\obj\Debug\TestPemesanan2.pdb

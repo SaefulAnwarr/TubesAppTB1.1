@@ -17,28 +17,30 @@ namespace TubesAppTB1._1
         {
             InitializeComponent();
         }
+        public void DBC<T, U>(IList<T> jenis, U jumlah)
+        {
+            Debug.Assert(jenis.Contains((T)Convert.ChangeType(jenisKendaraan.Text, typeof(T))), "Input jenis salah");
+            Debug.Assert(Convert.ToInt32(jumlah) > 0 && Convert.ToInt32(jumlah) <= 5, "Input jumlah 1 sampai 5");
+        }
 
         private void butPemesanan_Click(object sender, EventArgs e)
         {
-            Program.jnsken = jenisKendaraan.Text;
-            Program.jmlhban = int.Parse(jumlahBan.Text);
-            DBC(Program.jnsken, Program.jmlhban);
-            void DBC(string jenis, int jumlah)
+            List<string> jenis = new List<string>();
+            jenis.Add((string)jenisKendaraan.Items[0]);
+            jenis.Add((string)jenisKendaraan.Items[1]);
+            jenis.Add((string)jenisKendaraan.Items[2]);
+            jenis.Contains(jenisKendaraan.SelectedItem);
+            int jumlah = Convert.ToInt32(jumlahBan.Text);
+            DBC<string, int>(jenis, jumlah);
+
+            if (jenis.Contains(jenisKendaraan.Text) && jumlah > 0 && jumlah <= 5)
             {
-                Debug.Assert(jenis != "" && jenis == (string)jenisKendaraan.Items[0] || jenis == (string)jenisKendaraan.Items[1] || jenis == (string)jenisKendaraan.Items[2], "Input jenis salah");
-                Debug.Assert(jumlah > 0 && jumlah <= 5, "Input jumlah 1 sampai 5");
-            }
-            //label5.Text = jnsken + jmlhban;
-            if ((Program.jnsken != "" && Program.jnsken == (string)jenisKendaraan.Items[0] || Program.jnsken == (string)jenisKendaraan.Items[1] || Program.jnsken == (string)jenisKendaraan.Items[2]) && (Program.jmlhban > 0 && Program.jmlhban <= 5))
-            {
-                //listpanel[++index].BringToFront();
-                //DataPesanan dataPesanan = new DataPesanan(jnsken, jmlhban, new DataGerai(""));
+                Program.jnsken = jenisKendaraan.Text;
+                Program.jmlhban = int.Parse(jumlahBan.Text);
                 FormPilihGerai formPilihGerai = new FormPilihGerai();
                 this.Hide();
                 formPilihGerai.Show();
             }
-
-
         }
     }
 }

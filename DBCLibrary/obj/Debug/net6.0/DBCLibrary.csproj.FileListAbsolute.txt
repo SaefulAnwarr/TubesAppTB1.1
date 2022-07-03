@@ -1,0 +1,12 @@
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\DBCLibrary\obj\Debug\net6.0\DBCLibrary.csproj.AssemblyReference.cache
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\DBCLibrary\obj\Debug\net6.0\DBCLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\DBCLibrary\obj\Debug\net6.0\DBCLibrary.AssemblyInfoInputs.cache
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\DBCLibrary\obj\Debug\net6.0\DBCLibrary.AssemblyInfo.cs
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\DBCLibrary\obj\Debug\net6.0\DBCLibrary.csproj.CoreCompileInputs.cache
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\DBCLibrary\bin\Debug\net6.0\DBCLibrary.deps.json
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\DBCLibrary\bin\Debug\net6.0\DBCLibrary.dll
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\DBCLibrary\bin\Debug\net6.0\DBCLibrary.pdb
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\DBCLibrary\obj\Debug\net6.0\DBCLibrary.dll
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\DBCLibrary\obj\Debug\net6.0\refint\DBCLibrary.dll
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\DBCLibrary\obj\Debug\net6.0\DBCLibrary.pdb
+E:\Tugas Tel-U\semester 4\KONSTRUKSI PERANGKAT LUNAK\visual projek\Tubes 2 disini\TubesAppTB_UAS\DBCLibrary\obj\Debug\net6.0\ref\DBCLibrary.dll
