@@ -9,7 +9,7 @@ namespace UserAPI.Controllers
         // Membuat array of string yang berisi data user.
         private static List<GeraiData> listGeraiData = new List<GeraiData>()
         {
-            new GeraiData("Gerai Indo Sejati", 0130220, "Jl. Merkar Jaya I No.02"),
+            new GeraiData("Gerai Indo Sejati", 0130220, "Jl. Mekar Jaya I No.02"),
             new GeraiData("Gerai Sejuta Kasih", 0130221, "Jl. Sudirman I No.18"),
             new GeraiData("Gerai Merdeka Abadi", 0130222, "Jl. Merkar Jaya II No.07"),
             new GeraiData("Gerai Cinta Ibu", 0130223, "Jl. Proklamasi No.25"),
