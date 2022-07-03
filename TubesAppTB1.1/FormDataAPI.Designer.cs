@@ -43,6 +43,7 @@
             this.btnUser.TabIndex = 0;
             this.btnUser.Text = "Get Data User";
             this.btnUser.UseVisualStyleBackColor = true;
+            this.btnUser.Click += new System.EventHandler(this.btnUser_Click);
             // 
             // btnGerai
             // 
@@ -52,6 +53,7 @@
             this.btnGerai.TabIndex = 1;
             this.btnGerai.Text = "Get Data Gerai";
             this.btnGerai.UseVisualStyleBackColor = true;
+            this.btnGerai.Click += new System.EventHandler(this.btnGerai_Click);
             // 
             // labelJudulApp
             // 
