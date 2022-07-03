@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
+
 
 namespace TubesAppTB1._1
 {
@@ -43,7 +45,24 @@ namespace TubesAppTB1._1
 
                 /*double jumlah = double.Parse(textBox1.Text);
                 var total = harga * jumlah;*/
+
                 int total = harga * ban;
+                Debug.Assert(total <= int.MaxValue && total >= int.MinValue);
+                int hasil;
+                try
+                {
+                    hasil = checked(harga * ban);
+                    MessageBox.Show("perhitungan tidak ada masalah");
+                }
+                catch (OverflowException ex)
+                {
+                    
+                    MessageBox.Show("Nilai integer melebihi batas maksimal " + ex.Message);
+                    MessageBox.Show("Karena nilai melebihi batas maksimal maka nilai 0");
+                    hasil = 0;
+                    
+                }
+                
                 textBox2.Text = total.ToString();
             }
         }

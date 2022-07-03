@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace TubesAppTB1._1
 {
@@ -20,8 +21,10 @@ namespace TubesAppTB1._1
 
         private void buttLoginTB_Click(object sender, EventArgs e)
         {
-            string[] usernameData = { "devarj00", "saefulanw88", "asyrafbll99", "bellamyik22", "melvinj66", "johndoe77" };
-            string[] passwordData = { "singa00", "hiu88", "elang99", "zebra22", "badak66", "macan77" };
+            string[] usernameData = { "devarj00", "saefulanw88", "asyrafbll99", "bellamyik22", "melvinj66", "acer123456789123456789123abcd" };
+            string[] passwordData = { "singa00", "hiu88", "elang99", "zebra22", "badak66", "macan123456789123456789" };
+         
+
 
             if (usernameData.Contains(txtUsername.Text) && passwordData.Contains(txtPassword.Text) && Array.IndexOf(usernameData, txtUsername.Text) ==
                 Array.IndexOf(passwordData, txtPassword.Text))
@@ -43,6 +46,7 @@ namespace TubesAppTB1._1
                     Application.Exit();
                 }
             }
+
         }
     }
 }
