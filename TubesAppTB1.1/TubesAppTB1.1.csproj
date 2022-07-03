@@ -38,6 +38,9 @@
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
@@ -46,6 +49,7 @@
     <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
     </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
@@ -78,6 +82,12 @@
   <ItemGroup>
     <Compile Include="beriRatingcs.cs" />
     <Compile Include="bintangConfig.cs" />
+    <Compile Include="FormDataAPI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataAPI.Designer.cs">
+      <DependentUpon>FormDataAPI.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLoginTB.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +100,7 @@
     <Compile Include="FormPenilaian.Designer.cs">
       <DependentUpon>FormPenilaian.cs</DependentUpon>
     </Compile>
+    <Compile Include="GeraiList.cs" />
     <Compile Include="hitungPenilaian.cs" />
     <Compile Include="FormPembayaran.cs">
       <SubType>Form</SubType>
@@ -124,6 +135,10 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />
+    <Compile Include="UserList.cs" />
+    <EmbeddedResource Include="FormDataAPI.resx">
+      <DependentUpon>FormDataAPI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLoginTB.resx">
       <DependentUpon>FormLoginTB.cs</DependentUpon>
     </EmbeddedResource>

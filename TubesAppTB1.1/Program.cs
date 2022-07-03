@@ -19,7 +19,8 @@ namespace TubesAppTB1._1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormPembayaran());
+            /*Application.Run(new FormPembayaran());*/
+            Application.Run(new FormDataAPI());
         }
     }
 }
