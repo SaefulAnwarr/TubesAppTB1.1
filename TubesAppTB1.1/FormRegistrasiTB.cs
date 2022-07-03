@@ -24,31 +24,8 @@ namespace TubesAppTB1._1
             string email = textBox1.Text;
             string uname = textBox2.Text;
             string pass = textBox3.Text;
-            WriteJSON();
-            ReadJSON();
-            void WriteJSON()
-            {
-                //Contoh object yang akan ditulis dalam JSON
-                User user = new User(email, uname, pass);
-                //[Opsional] Merapikan format JSON
-                JsonSerializerOptions options = new JsonSerializerOptions()
-                {
-                    WriteIndented = true
-                };
-                //Melakukan perubahan object menjadi string(Serialization)
-                String jsonString = JsonSerializer.Serialize(user, options);
-
-                //Membuat file JSON yg berisi string hasil serialization
-                File.WriteAllText(Directory.GetParent(Directory.GetCurrentDirectory()) + ".json", jsonString);
-            }
-            void ReadJSON()
-            {
-                //Baca file Json yang diinginkan
-                String jsonString = File.ReadAllText(Directory.GetParent(Directory.GetCurrentDirectory()) + ".json");
-                //Deserialize file json menjadi object
-                User user = JsonSerializer.Deserialize<User>(jsonString);
-
-            }
+            RegistrasiLibrary.Class1.WriteJSON(email, uname, pass);
+            RegistrasiLibrary.Class1.ReadJSON(email, uname, pass);
             FormLoginTB formLoginTB = new FormLoginTB();
             this.Hide();
             formLoginTB.Show();

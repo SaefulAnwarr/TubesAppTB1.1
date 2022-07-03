@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TubesAppTB1.1", "TubesAppTB1.1\TubesAppTB1.1.csproj", "{464FFCD9-27E7-4286-A689-ACCEAF3FBE4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrasiLibrary", "RegistrasiLibrary\RegistrasiLibrary.csproj", "{4DCD0AA4-3722-4F5C-9BEE-B9FC9BC38C6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{464FFCD9-27E7-4286-A689-ACCEAF3FBE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{464FFCD9-27E7-4286-A689-ACCEAF3FBE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{464FFCD9-27E7-4286-A689-ACCEAF3FBE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DCD0AA4-3722-4F5C-9BEE-B9FC9BC38C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCD0AA4-3722-4F5C-9BEE-B9FC9BC38C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCD0AA4-3722-4F5C-9BEE-B9FC9BC38C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCD0AA4-3722-4F5C-9BEE-B9FC9BC38C6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -169,6 +169,12 @@
   <ItemGroup>
     <None Include="Resources\tire-5666200_960_720.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RegistrasiLibrary\RegistrasiLibrary.csproj">
+      <Project>{4dcd0aa4-3722-4f5c-9bee-b9fc9bc38c6f}</Project>
+      <Name>RegistrasiLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\System.Text.Json.6.0.3\build\System.Text.Json.targets" Condition="Exists('..\packages\System.Text.Json.6.0.3\build\System.Text.Json.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
